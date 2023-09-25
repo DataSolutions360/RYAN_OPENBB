@@ -1,5 +1,25 @@
 1) Open Command Prompt
 2) Create Project Directory  ("python -m venv RYAN_OPENBB")
 3) Activate Virtual Environment ("RYAN_OPENBB\Scripts\activate")
+3b)  If Scripts is DISABLED ON THE SYSTEM:
+          a)  Open Powershell
+          b)  Run as administrator
+          c) (In Powershell) -> "Get-ExecutionPolicy"    Result:  "Restricted"
+          d) (In Powershell) -> "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass"    Result:   (Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+https:/go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):)
+
+Response:  "A - Yes to All"
+
+          e) Change permissions for all scripts and future sessions, setting it at the system level:
+
+Response:  "Set-ExecutionPolicy RemoteSigned"
+
+OPTIONAL  f) If you want to reset the execution policy to its original value:   
+
+Response:  "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted"
+
 4) Install package within virtual environment:  "pip install OPENBB"
 5) Deactivate Virtual Environment ("deactivate")
