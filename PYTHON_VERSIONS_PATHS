@@ -1,0 +1,13 @@
+On Windows:
+
+a. Open the Start menu and search for "Environment Variables."
+
+b. Click on "Edit the system environment variables."
+
+c. In the System Properties window, click the "Environment Variables" button.
+
+d. Under the "System variables" section, scroll down and find the "Path" variable. Select it and click the "Edit" button.
+
+e. In the Edit Environment Variable window, add the path to the directory containing the new Python executable at the beginning of the list. For example, if you installed Python in C:\Python39, add C:\Python39 to the list of paths.
+
+f. Click "OK" to save the changes.
