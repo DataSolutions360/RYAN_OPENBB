@@ -11,3 +11,15 @@ d. Under the "System variables" section, scroll down and find the "Path" variabl
 e. In the Edit Environment Variable window, add the path to the directory containing the new Python executable at the beginning of the list. For example, if you installed Python in C:\Python39, add C:\Python39 to the list of paths.
 
 f. Click "OK" to save the changes.
+
+
+EASIER: 
+
+Right Click (THIS PC or MY COMPUTER)
+Click on ADVANCED SYSTEM SETTINGS
+Click ENVIRONMENT VARIABLES
+In the SYSTEM VARIABLES section, find the PATH variable, select it, and click EDIT to put the path where you SAVED THE NEW PYTHON VERSION YOU JUST DOWNLOADED.
+
+Verify Python Version:
+
+Command Prompt > "python --version"
