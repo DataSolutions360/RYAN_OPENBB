@@ -1,0 +1,5 @@
+1) Open Command Prompt
+2) Create Project Directory  ("python -m venv RYAN_OPENBB")
+3) Activate Virtual Environment ("RYAN_OPENBB\Scripts\activate")
+4) Install package within virtual environment:  "pip install OPENBB"
+5) Deactivate Virtual Environment ("deactivate")
