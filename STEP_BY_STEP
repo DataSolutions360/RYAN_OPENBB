@@ -21,5 +21,7 @@ OPTIONAL  f) If you want to reset the execution policy to its original value:
 
 Response:  "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Restricted"
 
+3c)  CD to "c:\Users\ryanw\Onedrive\python =m venv RYAN_OPENBB"
+
 4) Install package within virtual environment:  "pip install OPENBB"
 5) Deactivate Virtual Environment ("deactivate")
